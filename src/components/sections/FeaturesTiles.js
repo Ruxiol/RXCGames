@@ -183,7 +183,6 @@ class FeaturesTiles extends React.Component {
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        onClick={window.scrollTo(0, 0)}
                         src={require('./../../assets/images/CoinGecko Logo.svg')}
                         alt="CG"
                         width={40}
